@@ -1,0 +1,26 @@
+PWD :- print working directory.
+ls :- List of files/folders.
+clear :- Clear the terminal.
+cd :- change directory(folder)
+{
+    cd saksham 
+    cd saksham kashyap      //create two folders
+    cd "saksham kashyap"    //create single folder
+}
+  
+mkdir :- make directory(Folder).
+touch :- create file.
+rm :- remove the file.
+rm -rf :-remove folder.
+python file_name :- run python program.
+code file_name :- open file for coding.
+{
+    1. Open Existing file.
+    2. Create-open if doesn't exist.
+}
+mv :- move file from 1 folder to another OR rename the file.
+{
+  mv FIlE_NAME PAth_of_folder   //move file
+  mv FILE_NAME NEW_NAME   //rename the existing file
+}
+cp FILE_NAME PATH_OF_FOLDER :- copy file.
