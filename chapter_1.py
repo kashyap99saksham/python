@@ -1,3 +1,11 @@
+# PRINT FUNCTION
+# ESCAPE SEQUENCE
+# SHORTCUT ESCAPE SEQUENCE
+# PRINT EMOJIS
+# PYTHON AS CALCULATOR
+# VARIABLE DEFINE
+
+
 print('Hello World') 
 #both is correct way
 print("saksham")
