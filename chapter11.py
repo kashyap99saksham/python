@@ -38,7 +38,7 @@ li = [1,2,3,4]
 n=2
 print([i**n for i in li])     #output:[1, 4, 9, 16]
 
-# USE OF KWARGS(**) : THIS IS OPTIONAL MEANS USER CAN LEAVE OR GIVE THE VALUE OF KWARGS
+# USE OF KWARGS(**) : THIS IS OPTIONAL MEANS USER CAN LEAVE OR GIVE THE VALUE OF KWARGS ||  IT GATHER VALUES AS A DICTIONARY
 def fun(**kwargs):      #TAKE VALUES AS DICTIONARY
     print(kwargs)       #{'name': 'saksham', 'age': 20}
 fun(name = 'saksham' , age = 20)
