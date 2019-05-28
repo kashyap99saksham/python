@@ -1,6 +1,6 @@
 #CHAPTER : FUNCTION
 # USE OF *OPERATOR : WE CAN GIVE MULTI VALUE WITH TAKING TOO MANY ARGUMENTS
-def sum(*args):
+def sum(*args):         #ARGS TAKE VALUES AS A TUPLE
     t = 0
     for i in args:
         t += i
