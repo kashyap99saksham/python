@@ -60,3 +60,5 @@ print(rev(l))       #['Saksham', 'Kashyap']
 print(rev(l,rev = True))    #['Mahskas', 'Payhsak']
 
 
+#ORDER OF USING ALL PARAMETER : NORMAL , DEFAULT , ARGS ,KWARGS 
+# def fun(name,*args,age='Unknown',**kwargs):
