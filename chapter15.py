@@ -15,4 +15,19 @@ for i in nums:
     print(i)
 for i in nums:      #IT CANNOT RUN AGAIN : BECOZ IT REMOVE PREVIOUS VALUE
     print(i)
-    
+
+def even(n):
+    for i in range(2,n+1,2):
+        yield i
+eve_nums = even(10)
+for i in eve_nums:
+    print(i)
+
+
+# USE OF GENERATORS AS LIST COMPREHENSION : SIMPLE USE () IN PLACE OF []
+pr = (i**2 for i in range(1,11))
+for i in pr:
+    print(i)
+
+# list is taking more time then GENERATORS
+# list taking more space then generator
